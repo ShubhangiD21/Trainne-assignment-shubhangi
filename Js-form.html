@@ -9,39 +9,34 @@
     
 </head>
 <body>
-
-    <form name="stud" action="/formJs.js" method="POST" >   
+                
+    <form>   
+                                               
         <pre>
-                                              First  Name     :      <input type="text" name="firstname"/><br>
+
+                                                <h1>Welcome to Student Registration form</h1>
+                                              First  Name     :      <input type="text" name="firstname" id="fn"/><br>
     
-                                              Last  Name      :      <input type="text" name="lastname"/><br>
+                                              Last  Name      :      <input type="text" name="lastname" id="ln"/><br>
     
-                                              Designation     :      <input type="text" name="deg"/><br>
+                                              Designation     :      <input type="text" name="deg" id="de"/><br>
     
-                                              Mobile Number   :      <input type="number" name="num"/><br>
+                                              Mobile Number   :      <input type="number" name="num" id="mb"/><br>
     
-                                              Address         :      <input type="text" name="add"/><br>
+                                              Address         :      <input type="text" name="add" id="ads"/><br>
     
-                                              City            :      <input type="text" name="city"/><br>
+                                              City            :      <input type="text" name="city" id="ci"/><br>
     
-                                              State           :      <input type="text" name="state"/><br>
+                                              State           :      <input type="text" name="state" id="st"/><br>
     
-                                              Pin code        :      <input type="number" name="pin"/><br>
+                                              Pin code        :      <input type="number" name="pin" id="pc"/><br>
     
-                                                   <input type="submit" value="submit"  onclick="printData()"/>                <input type="reset" value="reset"/>
+                                                   <button type="submit"  onclick="printData()">submit</button>                <input type="reset" value="reset"/>
     
         </pre>
     
     </form>    
    
-    <script>
-
-     alert(printData());
-
-    </script>
-
-
-
 </body>
 </html>
 
