@@ -43,11 +43,11 @@ function operation()
 {
            
     let rString = document.getElementById('outp').value;
-    let Result = eval(rString);  //10
+    let Result = eval(rString);  
     document.getElementById('outp').value = Result;
 }
 
-    // clear the screen
+    
     function clearData()
     {
         document.getElementById('outp').value="";
