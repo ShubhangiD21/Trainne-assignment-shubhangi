@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>calculator assign</title>
+     
+        <link rel="stylesheet" href="calu.css">
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+    <body>
+        <div class="calstyle">
+            <form name="form">
+                <input class="output" type="button" id="outp"><br><br><br>
+                <br><br/>
+                <input class="one" type="button" value="1" onclick="getValue(1);">
+                <input type="button" value="2" onclick="getValue(2);">
+                <input type="button" value="3" onclick="getValue(3);">
+                <input type="button" value="+" onclick="getValue('+')">
+                <br><br/>
+                <input class="two" type="button" value="4" onclick="getValue(4);">
+                <input type="button" value="5" onclick="getValue(5);">
+                <input type="button" value="6" onclick="getValue(6);">
+                <input type="button" value="-" onclick="getValue('-');">
+                <br><br/>
+                <input class="three" type="button" value="7" onclick="getValue(7);">
+                <input type="button" value="8" onclick="getValue(8);">
+                <input type="button" value="9" onclick="getValue(9);">
+                <input type="button" value="x" onclick="getValue('*');">
+                <br><br/>
+                <input class="four" type="button" value="c" onclick="clearData();">
+                <input type="button" value="0" onclick="getValue(0);">
+                <input type="button" value="=" onclick=" operation();"> 
+                <input type="button" value="/" onclick="getValue('/');">
+                <h5>Liviano Budgets Rooms</h5>
+            </form>
+        </div>
+    </body>
+</html>

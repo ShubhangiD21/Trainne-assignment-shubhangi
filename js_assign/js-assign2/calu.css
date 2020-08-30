@@ -1,0 +1,54 @@
+.calstyle{
+                width: 360px;
+                height: 450px;
+                margin: auto;
+                border: 3px;
+                border-color: navy;
+                
+                border-radius: 8px;
+                background-color: deepskyblue;
+            }
+            input{
+                border-color: #RRGGBB;
+                border-radius: 3px;
+                background-color: gainsboro;
+                width:70px;
+               height:40px;
+            
+
+            }
+            input.output{
+                width:290px;
+                height:50px;
+                margin-left: 25px;
+                margin-top: 35px;;                    
+                background-color: gainsboro;
+            }
+            input.one{
+                height:40px;
+                background-color: gainsboro;
+                margin-left: 25px;
+                width:70px;
+               
+            }
+            input.two{
+                margin-left: 25px;
+                width:70px;
+                height:40px;
+                background-color: gainsboro;
+            }
+            input.three{
+                height:40px;
+                background-color: gainsboro;
+                margin-left: 25px;
+                width:70px;
+                 }
+            input.four{
+                margin-left: 25px;
+                width:70px;
+                height:40px;
+                background-color: gainsboro;
+            }
+            h5{
+                margin-left: 140px;
+            }
