@@ -1,0 +1,12 @@
+  .form table {
+    width: 70%;
+    height: 100%;
+    border: 2px solid black;
+    
+  }
+  td {
+    padding: 10px;
+   border-color: darkred;
+    border-radius: 8px;
+    }
+     
