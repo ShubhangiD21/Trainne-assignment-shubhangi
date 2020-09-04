@@ -1,0 +1,16 @@
+.form table {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    margin:40%;
+    background-color: cadetblue;
+    
+  }
+  td {
+
+    
+    padding: 10px;
+  
+    border-radius: 10px;
+    }
+     

@@ -1,0 +1,42 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="color: blue;">Validate given value is of error type or not</h3>
+<h1>
+    function isError(ip)
+    {
+        return ip instanceof Error ||  toString.call(ip)==='[object error]';
+    }
+</h1>
+
+
+<br>
+<h1>Out put is :::: </h1>
+<h4 id="e1">isError(new Error("xyz")):::</h4>
+<h4 id="e2">isError(200):::</h4>
+<h4 id="e3">isError('xyz'):::</h4>
+
+
+<script>
+    function isError(ip)
+    {
+        return ip instanceof Error || toString.call(ip)==='[object error]';
+    }
+
+    document.getElementById("e1").innerHTML+=isError(new Error('xyz'));
+    document.getElementById("e2").innerHTML+=isError(200);
+    document.getElementById("e3").innerHTML+=isError('xyz');
+
+    console.log(isError(new Error('xyz')));
+    console.log(isError(200));
+    console.log(isError('xyz'));
+</script>
+
+
+</body>
+</html>
