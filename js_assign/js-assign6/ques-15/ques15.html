@@ -1,0 +1,35 @@
+
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+<script>
+
+var temp;
+var ary=[3, 8, 7, 6, 5, -4, -3, 2, 1,0];
+ for(var i=0;i<ary.length;i++)
+ {
+     for(var j=0;j<(ary.length)-1;j++)
+     {
+         if(ary[j]>ary[j+1])
+         {
+            temp=ary[j];
+            ary[j]=ary[j+1];
+            ary[j+1]=temp;
+         }
+     }
+ }
+document.write("ary after sorting is :: "+"<br>");
+for(var j=0;j<ary.length;j++)
+{
+  document.write("  "+ary[j]);
+}
+</script>
+</body>
+</html>

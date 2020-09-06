@@ -1,0 +1,68 @@
+1.Write a JavaScript program that accept two integers and display the larger.
+
+2.Write a JavaScript conditional statement to find the sign of product of three numbers. Display an alert box with the specified sign.
+
+3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result.
+
+4.Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
+
+5.Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
+
+6.Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+7.Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
+
+8.Write a JavaScript program to sum the multiples of 3 and 5 under 1000. 
+
+9.Write a JavaScript function to check whether an `input` is an array or not
+
+10.Write a JavaScript function to clone an array. 
+
+11. Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
+/*
+let arr=[1,2,3,4];
+[1]<=func(arr)
+[1,2]<=func(arr,2)
+*/
+
+12. Write a JavaScript function to get the last element of an array. Passing a parameter 'n' will return the last 'n' elements of the array. 
+
+13.Write a simple JavaScript program to join all elements of the following array into a string.
+
+14.Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8.
+
+15.Write a JavaScript program to sort the items of an array.
+Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+
+16.Write a JavaScript program to find the most frequent item of an array. 
+Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+Sample Output : a ( 5 times )
+
+17.Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'. 
+
+18.Write a JavaScript program which prints the elements of the following array. 
+Note : Use nested for loops.
+Sample array : var a = [[1, 2, 1, 24], 
+			[8, 11, 9, 4], 
+			[7, 0, 7, 27], 
+			[7, 4, 28, 14], 
+			[3, 10, 26, 7]];
+Sample Output :
+"row 0"
+" 1"
+" 2"
+" 1"
+" 24"
+"row 1"
+
+19.Write a JavaScript program to find the sum of squares of a numeric vector.
+
+20. Write a JavaScript program to compute the sum and product of an array of integers. 
+
+21. Write a JavaScript program to add items in an blank array and display the items. 
+
+
+[	38	]
+btn	clr
+
