@@ -1,0 +1,46 @@
+.sd-header {
+    height: 15vh;
+    border: 5px solid red;
+    text-align: center;
+    margin-top:1.2%;
+  }
+  .sd-header h1 {
+    font-size: 40px;
+  
+  }
+  .sd-footer {
+    height: 15vh;
+    border: 5px solid black;
+    text-align: center;
+    margin-top:5%;
+  }
+  .sd-footer h1 {
+    font-size: 40px;
+     }
+  .form{
+    text-align: center;
+    margin-top:4%;
+    
+  }
+
+  .line {
+      font-size:30px;
+      color: blue;
+      font-style: italic;
+      font-weight: bold;
+  }
+  .btn1{
+  background-color: darkturquoise;
+  border-radius: 5px;
+  }
+
+  .btn2{
+    background-color: forestgreen;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
