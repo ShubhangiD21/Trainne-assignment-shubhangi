@@ -1,0 +1,52 @@
+.sd-header {
+  height: 10vh;
+  text-align: center;
+  background-color: mediumblue;
+}
+
+.sd-footer {
+  height: 10vh;
+  text-align: center;
+  background-color: black;
+}
+
+.gry {
+  float: left;
+  height: 80vh;
+  background-color: grey;
+  width: 30%;
+  list-style: none;
+  text-align: center;
+  margin-top: 0px;
+}
+li {
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+
+.gren {
+  height: 80vh;
+  background-color: green;
+  width: 70%;
+  margin-left: 30%;
+  margin-top: 0px;
+}
+
+.table,
+td,
+th {
+  text-align: center;
+}
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 75%;
+  height: 15vh;
+}
+td,
+th {
+  text-align: center;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}

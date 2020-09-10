@@ -1,19 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Reg from "./componant/form/Reg";
-import Footer from "./componant/functional_com/Footer";
-import Header from "./componant/functional_com/Header";
-import  "../src/design_css/design.css";
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Footer from "../src/assignment_2/component/Footer";
+import Header from "../src/assignment_2/component/Header";
+import "../src/assignment_2/style/style.css";
 
-
+import { BrowserRouter } from "react-router-dom";
+import Rounting from "../src/assignment_2/pages/Rounting";
 function App() {
   return (
     <div className="App">
-     
-     <Header/>
-     <Reg/>
-     <Footer/>
+      <BrowserRouter>
+        <Header />
+        <Rounting />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
