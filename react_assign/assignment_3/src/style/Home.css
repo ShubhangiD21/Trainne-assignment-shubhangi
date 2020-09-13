@@ -1,0 +1,40 @@
+.Home {
+  height: 75vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(157, 255, 0),
+    rgb(0, 247, 255)
+  );
+}
+.error {
+  color: red;
+  text-align: center;
+}
+.RegForm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.inputField {
+  display: flex;
+}
+.inp {
+  margin-left: 10px;
+  padding: 2%;
+  width: 30%;
+}
+.lbel {
+  text-align: right;
+  padding: 2px;
+  width: 30%;
+  margin-top: 10px;
+}
+.sub {
+  text-align: center;
+  padding: 10px;
+}
+.sub button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(164, 239, 245);
+}

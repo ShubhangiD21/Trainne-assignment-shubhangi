@@ -1,0 +1,23 @@
+.Footer {
+  height: 10vh;
+  background-image: linear-gradient(to right, red, blue);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer_form {
+  padding-top: 20px;
+}
+.Footer_copyright {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.Footer_lnk {
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: honeydew;
+}
+.Footer_lnk:hover {
+  color: darkorange;
+}
