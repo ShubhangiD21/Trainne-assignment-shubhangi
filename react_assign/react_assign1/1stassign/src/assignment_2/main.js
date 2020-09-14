@@ -1,19 +1,18 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Footer from "../src/assignment_4/Component/Footer";
-import Header from "../src/assignment_4/Component/Header";
-import "../src/assignment_4/style/style.css";
+import Footer from "../src/assignment_2/component/Footer";
+import Header from "../src/assignment_2/component/Header";
+import "../src/assignment_2/style/style.css";
 
 import { BrowserRouter } from "react-router-dom";
-import Routing from "../src/assignment_4/Pages/Routing";
-
+import Rounting from "../src/assignment_2/pages/Rounting";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routing />
+        <Rounting />
         <Footer />
       </BrowserRouter>
     </div>

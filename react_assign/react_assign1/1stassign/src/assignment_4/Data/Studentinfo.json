@@ -1,0 +1,20 @@
+[
+  {
+    "stud_id": 1,
+    "stud_name": "Shubhangi",
+    "stud_education": "BE",
+    "stud_fees": 50000
+  },
+  {
+    "stud_id": 2,
+    "stud_name": "Aishwarya",
+    "stud_education": "BCS",
+    "stud_fees": 40000
+  },
+  {
+    "stud_id": 3,
+    "stud_name": "Mahesh",
+    "stud_education": "BE",
+    "stud_fees": 60000
+  }
+]

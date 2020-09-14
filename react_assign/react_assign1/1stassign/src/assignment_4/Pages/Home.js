@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Grey from "../component/Grey";
+import Grey from "../Component/Grey";
 
 export default class Home extends Component {
   render() {

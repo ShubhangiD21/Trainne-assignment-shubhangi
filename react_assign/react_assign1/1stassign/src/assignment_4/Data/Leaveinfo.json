@@ -1,0 +1,17 @@
+[
+  {
+    "emp_id": 1,
+    "emp_name": "Mahesh",
+    "leave_date": "10/09/2020"
+  },
+  {
+    "emp_id": 2,
+    "emp_name": "Aishwarya",
+    "leave_date": "1/08/2020"
+  },
+  {
+    "emp_id": 3,
+    "emp_name": "Shubhangi",
+    "leave_date": "5/09/2020"
+  }
+]
