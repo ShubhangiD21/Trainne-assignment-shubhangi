@@ -1,0 +1,247 @@
+
+//*******************ques-1******************
+
+
+
+import java.util.Scanner;
+
+public class ques_1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 1st number");
+		int num1=sc.nextInt();
+		System.out.println("Enter 2nd number");
+		int num2=sc.nextInt();
+		System.out.println("Enter 3rd number");
+		int num3=sc.nextInt();
+		System.out.println("OUT PUT IS :::");
+		if((num1<=599 && num1>=259) && (num2<=599 && num2>=259) && (num3<=599 && num3>=259))
+		{
+			System.out.println("All numbers are in range");
+		}
+		else
+		{
+			if(num1<=599 && num1>=259)
+			{
+				System.out.println(num1+ " is in range");
+			}
+			else
+			{
+				System.out.println(num1+ " is not in range");
+			}
+		
+			if(num2<=599 && num2>=259)
+			{
+				System.out.println(num2+ " is in range");
+			}
+			else
+			{
+				System.out.println(num2+ " is not in range");
+			}
+	   
+			if(num3<=599 && num3>=259)
+			{
+				System.out.println(num3 + " is in range");
+			}
+			else
+			{
+				System.out.println(num3 + " is not in range");
+			}
+	  }
+	}
+
+}
+
+/**********output 1 ------------
+
+Enter 1st number
+260
+Enter 2nd number
+550
+Enter 3rd number
+330
+OUT PUT IS:::
+All numbers are in range
+
+
+/***************** output 2 -------------
+
+Enter 1st number
+200
+Enter 2nd number
+400
+Enter 3rd number
+150
+OUT PUT IS :::
+200 is not in range
+400 is in range
+150 is not in range
+*/
+
+
+
+
+
+
+//********************ques-2***************
+
+
+
+public class assign_2
+{
+	public static void main(String[] args)
+	{
+		int n=6,r,c;
+		for(r=0;r<n;r++)
+		{
+			for(c=0;c<n;c++)
+			{
+				if(r==0 || r==5 || c==0 || c==5 )
+				{
+				System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.print("\n");
+		}
+	}
+}
+
+/* ---------- output----------
+
+******
+*    *
+*    *
+*    *
+*    *
+******
+
+*/
+
+
+
+//**********************ques-3*********************
+
+
+public class ques_3 {
+
+	public static void main(String[] args) {
+		
+		for(int r=1;r<=10;r++)
+		{
+			for(int c=5;c<=10;c++)
+			{
+				if(r==1)
+				{
+					System.out.print(r*c +"  ");
+
+				}
+				else
+				{
+				System.out.print(r*c+" ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+
+/*--------output-------------
+
+5  6  7  8  9  10  
+10 12 14 16 18 20 
+15 18 21 24 27 30 
+20 24 28 32 36 40 
+25 30 35 40 45 50 
+30 36 42 48 54 60 
+35 42 49 56 63 70 
+40 48 56 64 72 80 
+45 54 63 72 81 90 
+50 60 70 80 90 100 
+
+*/
+
+
+
+//********************ques-4********************
+
+
+
+public class ques_4 {
+
+	public static void main(String[] args) {
+		int n=5,r,c;
+		for(r=0;r<n;r++)
+		{
+			for(c=0;c<n;c++)
+			{
+				if( c==0 || c==4 || r==c )
+				{
+				System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.print("\n");
+		}
+	  }
+}
+
+
+/*----------- output ---------
+
+*   *
+**  *
+* * *
+*  **
+*   *
+
+*/
+
+
+
+
+//**********************ques-5**********************
+
+
+
+public class assign_5 
+{
+
+	public static void main(String[] args) {
+		int n=5,r,c;
+		for(r=0;r<n;r++)
+		{
+			for(c=0;c<n;c++)
+			{
+				if(r==0 || r==4 || c==0 || c==4 || r==c )
+				{
+				System.out.print("*");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.print("\n");
+		}
+	}
+}
+
+/*---------- output----------
+   
+*****
+**  *
+* * *
+*  **
+*****
+
+*/
