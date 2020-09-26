@@ -1,0 +1,103 @@
+1.Find the only repetitive element between 1 to n-1.
+2.Find out middle index where sum of both ends are equal.
+3.Write a program to convert decimal number to binary format.
+4.Write a program to find perfect number or not.
+5.Wrie a program to find out duplicate characters in a string.
+6.Write a program to find top two maximum numbers in a array.
+7.Write a program to find common elements between two arrays.	
+8.How to swap two numbers without using temporary variable?														
+9.Write a program to print fibonacci series.
+10.Write a program to find sum of each digit in the given number using recursion.														
+11.Write a program to check the given number is a prime number or not?														
+12.Write a program to find the given number is Armstrong number or not?														
+13.Write a program to convert binary to decimal number.														
+14.Write a program to check the given number is binary number or not?														
+15.Write a program for Bubble Sort in c.														
+16.Write a program for Insertion Sort in c.
+17.Find longest substring without repeating characters.														
+18.Write a program to remove duplicates from sorted array.														
+19.How to sort a Stack using a temporary Stack?
+20.Write given number in words														
+	input : 1234													
+	output : one thousand two hundred thirty four
+21.Sort the array of strings by the number inside it														
+	e.g														
+	input :														
+	201 nilesh khude														
+	203 vijay joshi														
+	501 rahul kakade														
+	50 binoy samuel														
+															
+	output														
+	50 binoy samuel														
+	201 nilesh khude														
+	203 vijay joshi														
+	501 rahul kakade
+22.Write a program to accept 3 numbers n1, n2 and n3. Check these numbers are between 259 to 599 and print "All present"
+ if all present in the range otherwise status of each start from n1 to n3 like this:
+ n1 present
+ n2 not present
+ n3 present
+
+23. Write a program to print this pattern:
+ if n = 6
+
+ *  *  *  *  *  *
+ *              *
+ *              *
+ *              *
+ *              *
+ *  *  *  *  *  *
+
+24. Print numbers from 1 to 500, print numbers in rows like this
+ For odd row print (5 + row number) numbers
+ For even row print 4 number
+ Ex.:
+ 1 2 3 4 5 6
+ 7 8 9 10
+ 11 12 13 14 151 16 17 18
+ 19 20 21 22
+
+25.Write a program to print this pattern:
+ if n = 6
+
+ *  *  *  *  *  *
+ *  *           *
+ *     *        *
+ *        *     *
+ *           *  *
+ *  *  *  *  *  *
+
+26.Write a program to print this pattern:
+
+output 
+  +                                                                                                                                  
+  +  +                                                                                                                               
+  +    +                                                                                                                             
+  + $  $  +                                                                                                                         
+             + -  -   +                                                                                                                 
+               +      +                                                                                                                   
+                  +   +                                                                                                                   
+                      + 
+
+27.Write a program to print this pattern:
+
+// output
+// Enter number of rows : 4
+  *
+    *
+      *
+        *
+         *
+        *
+   *
+  * * * * * * * *
+
+28.Write a program to print this number pattern:
+1
+2   12  
+.     .    23 
+.     .     .
+.     .     .       .
+.      .     .      .    99
+10  20   30  .   .  .      100
