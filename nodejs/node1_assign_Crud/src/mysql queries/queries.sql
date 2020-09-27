@@ -27,7 +27,7 @@ flush privileges;
 
 /*    leave info table        */
 
-drop table leaveinfo;
+
 create table leaveinfo(Leave_No integer , Employee_Name varchar(10),Leave_Reason varchar(30) , Leave_startDate date ,Leave_endDate date );
 delete from leaveinfo where leave_no=2;
 
